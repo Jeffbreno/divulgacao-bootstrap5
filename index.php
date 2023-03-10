@@ -9,26 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/master.css">
 </head>
 <body>
     <main>
         <div class="carrossel">
-            <img class="imagem" src="./src/imagens/tlou-1.jpg" alt="Ellie e Joel abraçados">
+            <img class="imagem" src="./src/img/tlou-1.jpg" alt="Ellie e Joel abraçados">
 
-            <img class="imagem" src="./src/imagens/tlou-2.jpg" alt="Personagens The Last of Us">
+            <img class="imagem" src="./src/img/tlou-2.jpg" alt="Personagens The Last of Us">
 
-            <img class="imagem" src="./src/imagens/tlou-3.jpg" alt="Joel olhando pela janela">
+            <img class="imagem" src="./src/img/tlou-3.jpg" alt="Joel olhando pela janela">
 
-            <img class="imagem" src="./src/imagens/tlou-4.jpg" alt="Ellie e Tess se olhando">
+            <img class="imagem" src="./src/img/tlou-4.jpg" alt="Ellie e Tess se olhando">
 
-            <img class="imagem" src="./src/imagens/tlou-5.jpg" alt="Ellie e Joel caminhando em uma cidade destruída">
+            <img class="imagem" src="./src/img/tlou-5.jpg" alt="Ellie e Joel caminhando em uma cidade destruída">
 
-            <img class="imagem" src="./src/imagens/tlou-6.jpg" alt="Joel segurando uma lanterna ligada na mão direita">
+            <img class="imagem" src="./src/img/tlou-6.jpg" alt="Joel segurando uma lanterna ligada na mão direita">
         </div>
 
         <div class="conteudo">
             <div class="informacoes">
-                <img class="logo" src="./src/imagens/logo.png" alt="logo The Last of Us">
+                <img class="logo" src="./src/img/logo.png" alt="logo The Last of Us">
 
                 <p class="descricao">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur repellendus ratione iusto doloribus aliquam ullam minus, molestiae minima iure at dicta eum expedita sunt non animi beatae, provident nulla totam.
@@ -49,12 +50,12 @@
             <ul>
                 <li>
                     <a href="#" target="_blank">
-                        <img src="./src/imagens/github.svg" alt="ícone GitHub" class="icone">
+                        <img src="./src/img/github.svg" alt="ícone GitHub" class="icone">
                     </a>
                 </li>
                 <li>
                     <a href="#" target="_blank">
-                        <img src="./src/imagens/linkedin-in.svg" alt="ícone LinkedIn" class="icone">
+                        <img src="./src/img/linkedin-in.svg" alt="ícone LinkedIn" class="icone">
                     </a>
                 </li>
             </ul>
