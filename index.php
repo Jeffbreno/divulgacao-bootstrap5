@@ -14,17 +14,17 @@
 <body>
     <main>
         <div class="carrossel">
-            <img class="imagem" src="./src/img/tlou-1.jpg" alt="Ellie e Joel abraçados">
+            <img class="img" src="./src/img/tlou-1.jpg" alt="Ellie e Joel abraçados">
 
-            <img class="imagem" src="./src/img/tlou-2.jpg" alt="Personagens The Last of Us">
+            <img class="img ativa" src="./src/img/tlou-2.jpg" alt="Personagens The Last of Us">
 
-            <img class="imagem" src="./src/img/tlou-3.jpg" alt="Joel olhando pela janela">
+            <img class="img" src="./src/img/tlou-3.jpg" alt="Joel olhando pela janela">
 
-            <img class="imagem" src="./src/img/tlou-4.jpg" alt="Ellie e Tess se olhando">
+            <img class="img" src="./src/img/tlou-4.jpg" alt="Ellie e Tess se olhando">
 
-            <img class="imagem" src="./src/img/tlou-5.jpg" alt="Ellie e Joel caminhando em uma cidade destruída">
+            <img class="img" src="./src/img/tlou-5.jpg" alt="Ellie e Joel caminhando em uma cidade destruída">
 
-            <img class="imagem" src="./src/img/tlou-6.jpg" alt="Joel segurando uma lanterna ligada na mão direita">
+            <img class="img" src="./src/img/tlou-6.jpg" alt="Joel segurando uma lanterna ligada na mão direita">
         </div>
 
         <div class="conteudo">
@@ -37,7 +37,7 @@
             </div>
 
             <div class="botoes-carrossel">
-                <button class="botao"></button>
+                <button class="botao selecionado"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
