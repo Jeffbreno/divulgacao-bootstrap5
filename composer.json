@@ -1,0 +1,16 @@
+{
+    "name": "jeffersonlopes/pagina-propaganda",
+    "description": "Site proganda feita em Bootstrap 5",
+    "autoload": {
+        "psr-4": {
+            "Site\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jefferson Lopes",
+            "email": "jeffbreno@gmail.com"
+        }
+    ],
+    "require": {}
+}
