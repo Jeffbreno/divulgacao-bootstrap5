@@ -1,27 +1,62 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
 
 main::after {
     content: '';
-    min-height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: linear-gradient(90deg, rgb(0, 0, 0, 1) 10%, rgb(0, 0, 0, 0.05926120448179273) 50%, rgb(0, 0, 0, 1) 90%);
-    z-index: -1;
+	min-height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+	z-index: -1;
 }
 
-.informacoes .logo {
-    /* max-width: 350px; */
+.conteudo {
+    top: -10%;
+}
+
+.info .logo {
+    max-width: 350px;
     filter: invert(1);
     margin-bottom: 80px;
 }
 
-.informacoes .descricao {
-    /* width: 49%; */
+.info .description {
     font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.carousel-indicators {
+    top: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+/* MUDAR FORMATO DOS BOTÕES DO BOOTSTRAP */
+.carousel-indicators button {
+    background-color: #ffffff;
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+    border: 2px transparent !important;
+    cursor: pointer !important;
+    border-color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators button.active {
+    background-color: #1d8346;
+}
+
+.menu-lateral .icone {
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-lateral .icone:hover {
+    transform: scale(1.2);
 }
