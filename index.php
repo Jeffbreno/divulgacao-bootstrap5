@@ -20,7 +20,7 @@
     <main class="position-fixed min-vh-100 vw-100">
         <!-- CAROUSEL -->
         <div id="carouselIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner z-n1">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/tlou-1.jpg" class="w-100 vh-100 object-fit-cover">
                 </div>
